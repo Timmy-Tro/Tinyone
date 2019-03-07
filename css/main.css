@@ -1,3 +1,6 @@
+.yellow {
+  color: #fcdb00;
+}
 body {
   font-family: 'PT Sans', sans-serif;
 }
@@ -55,7 +58,7 @@ h3 {
  width: 400px;
  color: #555555;
  margin-top: 22px;
- line-height: 1.1em;
+ line-height: 1.2em;
 }
 .icons__item {
   margin-bottom: 232px;
@@ -72,4 +75,59 @@ h3 {
 .ipad {
   display: block;
   margin: 67px auto 0;
+}
+.title {
+  text-align: center;
+  padding-top: 118px;
+  padding-bottom: 89px;
+}
+.title__main {
+  font-size: 32px;
+}
+.title__text {
+  width: 732px;
+  font-size: 20px;
+  margin: 0 auto;
+  line-height: 20px;
+  color: #313841;
+}
+.feature {
+  margin-bottom: 87px;
+}
+.feature__icon {
+  color: #000;
+  font-size: 50px;
+  margin-right: 33px;
+}
+.feature__block {
+  width: 220px;
+  color: #898989;
+  font-size: 16px;
+  line-height: 20px;
+}
+.touch {
+  background-color: #000;
+  color: #898989;
+}
+.form {
+  text-align: center;
+}
+.form__input {
+  background-color: #fff;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+  border-radius: 5px;
+  width: 580px;
+  padding: 15px 0;
+}
+.form__btn {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #fcdb00;
+  color: #000;
+  width: 126px;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px 0;
 }
