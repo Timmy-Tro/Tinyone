@@ -1,0 +1,75 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+header {
+  background-color: #fcdb00;
+  color: #010101;
+  padding-top: 50px;
+}
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+.menu {
+  margin-top: 8px;
+}
+.menu__item {
+  margin: 0 57px;
+}
+.menu__item a{
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.menu__item a:hover {
+  text-decoration: none;
+  color: #555555;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  color: #010101;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-weight: 00;
+}
+.offer {
+  margin-top: 137px;
+}
+.offer__title {
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+.offer__intro {
+  color: #313841;
+  font-size: 20px;
+  line-height: 1.3em;
+  margin-top: 23px;
+}
+.offer__text {
+ font-size: 16px;
+ width: 400px;
+ color: #555555;
+ margin-top: 22px;
+ line-height: 1.1em;
+}
+.icons__item {
+  margin-bottom: 232px;
+  margin-right: 38px;
+}
+.icons__item a {
+  font-size: 42px;
+  color: #010101;
+  transition: all 0.2s ease;
+}
+.icons__item a:hover {
+  color: #555555;
+}
+.ipad {
+  display: block;
+  margin: 67px auto 0;
+}
