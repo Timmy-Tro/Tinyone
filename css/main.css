@@ -117,17 +117,60 @@ h3 {
   font-size: 16px;
   font-family: 'PT Sans', sans-serif;
   border-radius: 5px;
+  border: 0;
   width: 580px;
   padding: 15px 0;
+  padding-left: 23px;
+  margin-right: 21px;
 }
 .form__btn {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   border-radius: 5px;
+  border: 0;
   background-color: #fcdb00;
   color: #000;
   width: 126px;
   font-size: 16px;
   text-transform: uppercase;
   padding: 15px 0;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+}
+.credits {
+  padding: 50px 0 36px;
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .offer {
+    text-align: center;
+  }
+  .offer__text {
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .icons {
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .ipad {
+    margin-top: -200px;
+    margin-bottom: 30px;
+  }
+  .title__main {
+    margin-top: -80px;
+  }
+  .feature {
+    justify-content: center;
+  }
 }
